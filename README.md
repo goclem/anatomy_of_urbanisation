@@ -23,25 +23,25 @@ We provide the delineations computed in the paper as separate Geopackage files c
 - Cities: [`cc.gpkg`](https://www.dropbox.com/scl/fi/rgr4j3r0s3cw5mubg0sji/tgo_cc.gpkg?rlkey=p9jdjjm1jzl1kejvm3v6mu0a0&dl=1) (172 KB)
 - Urban centres: [`ce.gpkg`](https://www.dropbox.com/scl/fi/pa35r1a3gzb01v9noa7ch/tgo_ce.gpkg?rlkey=glk85pqgdjuq6vpjllyrevs2c&dl=1) (131 KB)
 
-### Description
+### Variable descriptions
 
-| Variable                     | Description                         | Type        |
-|------------------------------|-------------------------------------|-------------|
-| `decpo15d10b5000_[de]`       | Delineation identifier              | `Integer`   |
-| `country`                    | Country ISO                         | `Character` |
-| `namecpo15d10b5000_[de]`     | Delineation name (when available)   | `Character` |
-| `typecpo15d10b5000_[de]`     | Type of place (city, town, village) | `Character` |
-| `aredcpo15d10b5000_[de]d`    | Delineation area                    | `[Type]`    |
-| `cpo15dcpo15d10b5000_[de]d`  | [Description]                       | `[Type]`    |
-| `dcpo15dcpo15d10b5000_[de]d` | [Description]                       | `[Type]`    |
-| `gbudcpo15d10b5000_[de]d`    | [Description]                       | `[Type]`    |
-| `dgbudcpo15d10b5000_[de]d`   | [Description]                       | `[Type]`    |
+| Variable                     | Description                         |
+|------------------------------|-------------------------------------|
+| `decpo15d10b5000_[de]`       | Delineation identifier              |
+| `country`                    | Country ISO                         |
+| `namecpo15d10b5000_[de]`     | Delineation name (when available)   |
+| `typecpo15d10b5000_[de]`     | Type of place (city, town, village) |
+| `aredcpo15d10b5000_[de]d`    | Delineation area                    |
+| `cpo15dcpo15d10b5000_[de]d`  | [Description]                       |
+| `dcpo15dcpo15d10b5000_[de]d` | [Description]                       |
+| `gbudcpo15d10b5000_[de]d`    | [Description]                       |
+| `dgbudcpo15d10b5000_[de]d`   | [Description]                       |
 
 ## 2. Computing delineations
 
 We provide the input data used to compute the delineations, along with the various Stata datasets referenced in the paper. This allows users to reproduce the delineations potentially with different parameter settings. See this [repository](https://github.com/goclem/delineation) for the corresponding scripts and parameter description. 
 
-### Download
+### Downloads
 
 | Country                  | Rasters                | Datasets               |
 |--------------------------|------------------------|------------------------|
